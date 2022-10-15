@@ -10,9 +10,10 @@ const Card = () => {
       {products.map((product) => (
         <div className="product-card" key={product.id}>
           <img src={product.image} alt={product.title} />
+          <div className="line"></div>
           <h3>{product.title}</h3>
-          <p>{product.description}</p>
-          <p>{product.price}</p>
+          <div className="line"></div>
+          <p>{product.price}€</p>
         </div>
       ))}
     </section>
