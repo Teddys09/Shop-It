@@ -49,3 +49,8 @@
 .alreadyincart {
   color: red;
 }
+.error-product {
+  color: red;
+  text-align: center;
+  font-size: 24px;
+}
