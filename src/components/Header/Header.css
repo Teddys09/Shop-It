@@ -13,7 +13,7 @@
   height: 24px;
 }
 header {
-  height: 5vh;
+  min-height: 5vh;
   display: flex;
   align-items: center;
   background-color: rgb(48, 91, 148);

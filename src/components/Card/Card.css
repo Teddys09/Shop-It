@@ -10,6 +10,9 @@
   height: 60%;
   object-fit: contain;
 }
+a {
+  color: black;
+}
 .product-card {
   padding: 20px;
   display: flex;

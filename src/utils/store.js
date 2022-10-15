@@ -11,13 +11,7 @@ const data = createSlice({
       state.products = action.payload;
     },
     addToCart(state, action) {
-      state.userList.push(action.payload);
-      const checkIfInList = state.userList.filter(
-        (item) => item.id === action.payload.id
-      );
-      if (checkIfInList.length > 1) {
-        state.userList.pop();
-      }
+      state.cart.push(action.payload);
     },
   },
 });
