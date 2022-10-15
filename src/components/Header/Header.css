@@ -1,0 +1,29 @@
+.title-logo-container {
+  display: flex;
+  align-items: center;
+  gap: 10%;
+}
+.title-logo-container h1 {
+  font-size: 24px;
+  color: white;
+  white-space: nowrap;
+}
+.title-logo-container img {
+  width: 24px;
+  height: 24px;
+}
+header {
+  height: 5vh;
+  display: flex;
+  align-items: center;
+  background-color: rgb(48, 91, 148);
+  flex-basis: 35%;
+  justify-content: space-between;
+}
+.nav-link a {
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+  padding: 0 10px;
+  font-weight: 600;
+}
