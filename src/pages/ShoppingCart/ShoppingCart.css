@@ -11,3 +11,38 @@
   align-items: center;
   gap: 10px;
 }
+.totalPrice {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 15px;
+  border-radius: 10px;
+  max-height: 200px;
+  gap: 10px;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.purchase-button {
+  width: 100px;
+  min-height: 50px;
+  background-color: rgb(48, 91, 148);
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.card-price-container {
+  display: flex;
+}
+@media (max-width: 700px) {
+  .card-price-container {
+    flex-direction: column;
+
+    flex-direction: column-reverse;
+  }
+}

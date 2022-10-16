@@ -4,6 +4,7 @@ import './Product.css';
 import { useSelector, useDispatch } from 'react-redux';
 import DropDown from '../../components/DropDown/DropDown';
 import { addToCart } from '../../utils/store';
+import ArrowLeft from '../../img/arrow-left.svg';
 
 const Product = () => {
   const allProducts = useSelector((state) => state.store.products);
@@ -54,6 +55,9 @@ const Product = () => {
           <div className="addtocart" onClick={() => addToCartHandler()}>
             Add to cart
           </div>
+        </div>
+        <div className="arrow-left">
+          <img src={ArrowLeft} alt="arrow left" onClick={() => navigate('/')} />
         </div>
       </section>
     );

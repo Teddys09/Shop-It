@@ -3,7 +3,6 @@ import arrowDown from '../../img/arrow_down.svg';
 import './DropDown.css';
 
 const DropDown = (description) => {
-  console.log(description);
   let isClickedDescription = false;
   function handleClickDescription() {
     isClickedDescription = !isClickedDescription;

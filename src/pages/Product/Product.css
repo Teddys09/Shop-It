@@ -54,3 +54,12 @@
   text-align: center;
   font-size: 24px;
 }
+.arrow-left {
+  cursor: pointer;
+  width: 40px;
+  height: 20px;
+  margin-top: auto;
+  position: fixed;
+  left: 2%;
+  bottom: 10%;
+}
